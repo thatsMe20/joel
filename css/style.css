@@ -1,13 +1,3 @@
-img#movingImage {
-  max-width: 4%;
-}
-.moving-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: transform 10s linear;
-}
-
 
 @font-face {
   font-family: 'icomoon';
