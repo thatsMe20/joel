@@ -65,22 +65,7 @@
 	  --gray: #959695;
 	}
 	
-	
-	.error__container {
-	  max-width: 800px;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  align-items: center;
-	  gap: 10px;
-	  margin: 0 10px;
-	}
-	
 	.error__code {
-	  width: 100%;
-	  margin: 0 auto;
-	  font-size: 6rem;
-	  font-weight: 800;
 	  display: flex;
 	  justify-content: center;
 	  align-items: center;
@@ -102,34 +87,8 @@
 	  animation: bounce 1.2s 1.8s linear forwards;
 	  opacity: 0;
 	}
-	
-	.error__title {
-	  font-size: 1.5rem;
-	  font-weight: 700;
-	  padding: 0 3%;
-	}
-	
-	.error__description {
-	  font-size: 0.9rem;
-	  text-align: justify;
-	  line-height: 1.6;
-	  padding: 0 10%;
-	  color: var(--gray);
-	}
-	
-	.action {
-	  font: inherit;
-	  padding: 10px 30px;
-	  border: none;
-	  border-radius: 20px;
-	  cursor: pointer;
-	  background-color: var(--blue);
-	  color: var(--white);
-	}
-	
-	.action:hover {
-	  opacity: 0.8;
-	}
+
+
 	
 	@media screen and (min-width: 48rem) {
 	  .error__description {
@@ -228,14 +187,13 @@
 					   			<div class="col-md-12 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight"><br>
 					   					<div class="desc">
-											<div class="error__container">
-												<div class="error__code">
-												  <p>Hi,</p>
-												  <p>I'm Joel</p>
-												  <p>!</p>
-												</div>
-											  </div>
-											<h1>My Profession is Developer.</h1>
+											<h1>
+											<div class="error__code">
+												<p>Hi,</p>
+												<p>I'm Joel</p>
+												<p>!</p>
+											</div>
+											My Profession is Developer.</h1>
 										</div>
 										<div class="desc note">
 											<p><a href="#" data-nav-section="contact" class="btn btn-primary btn-learn">Hire me </a></p>
