@@ -106,15 +106,94 @@
 					   			<div class="col-md-12 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight"><br>
 					   					<div class="desc">
-											<h1>
+										<h1>
 											<div class="error__code">
 												<p>Hi,</p>
 												<p>I'm Joel</p>
 												<p>!</p>
 											</div>
-											My Profession is Developer.
+											<div class="typing-container">
+												<div id="typingLine"></div>
+												<div id="nameContainer"></div>
+											  </div>
+											
 										</h1>
-										
+
+
+										<style>
+											.typing-container {
+											  text-align: center;
+											  margin-top: 50px;
+											}
+											
+											#typingLine {
+											  display: inline-block;
+											  width: 0;
+											  height: 2px;
+											  background-color: black;
+											  margin-bottom: 10px;
+											  overflow: hidden;
+											}
+											
+											#nameContainer {
+											  font-family: Arial, sans-serif;
+											  font-size: 36px;
+											  color: #333;
+											  display: inline-block;
+											  white-space: nowrap; /* Prevent line breaks */
+											  overflow: hidden; /* Hide overflow text */
+											  border-right: 2px solid transparent; /* Create a blinking cursor effect */
+											}
+											</style>
+											<script>
+												const nameElement = document.getElementById('nameContainer');
+												const typingLine = document.getElementById('typingLine');
+												const name = 'My Profession is Developer.';
+												let index = 0;
+												
+												function typeEffect() {
+												  if (index < name.length) {
+													nameElement.textContent += name[index];
+													index++;
+													setTimeout(typeEffect, 200); // Adjust typing speed (milliseconds)
+												  } else {
+													setTimeout(eraseEffect, 1000); // Wait for 1 second before erasing
+												  }
+												}
+												
+												function eraseEffect() {
+												  if (index > 0) {
+													nameElement.textContent = name.substring(0, index - 1);
+													index--;
+													setTimeout(eraseEffect, 100); // Adjust erasing speed (milliseconds)
+												  } else {
+													setTimeout(typeEffect, 1000); // Wait for 1 second before typing again
+												  }
+												}
+												
+												typeEffect();
+												
+												// Typing line effect
+												let typingLineWidth = 0;
+												let typingLineDirection = 1;
+												
+												function animateTypingLine() {
+												  typingLineWidth += typingLineDirection;
+												  typingLine.style.width = typingLineWidth + 'px';
+												
+												  if (typingLineWidth >= nameElement.offsetWidth) {
+													typingLineDirection = -1;
+												  }
+												  if (typingLineWidth <= 0) {
+													typingLineDirection = 1;
+												  }
+												
+												  requestAnimationFrame(animateTypingLine);
+												}
+												animateTyp
+												</script>
+
+
 										</div>
 										<div class="desc note">
 											<p><a href="#" data-nav-section="contact" class="btn btn-primary btn-learn">Hire me </a></p>
