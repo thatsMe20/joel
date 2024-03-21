@@ -42,21 +42,24 @@
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="sass/writing.scss">
 	<style>
 		img#movingImage {
 			max-width: 4%;
 		}
 		.moving-image {
-			position: absolute;
-			top: 0;
-			left: 0;
-			transition: transform 10s linear;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transition: transform 10s linear;
 		}
 	</style>
+
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
 	</head>
 	<body>
@@ -106,11 +109,7 @@
 					   			<div class="col-md-12 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
 					   				<div class="slider-text-inner js-fullheight"><br>
 					   					<div class="desc">
-										<h1>
-											<a href="" class="typewrite" data-period="2000" data-type='[ "Hi, Im Si.", "I am Creative.", "I Love Design.", "I Love to Develop." ]'>
-											<span class="wrap"></span>
-											</a>
-										</h1>
+											<h1 >Hi I'm Joel! <br>My Profession is Developer.</h1>
 										</div>
 										<div class="desc note">
 											<p><a href="#" data-nav-section="contact" class="btn btn-primary btn-learn">Hire me </a></p>
@@ -138,10 +137,10 @@
 								<div class="col-md-12">
 									<div class="about-desc">
 										<span class="heading-meta">About</span>
-										<p><strong>I'm joel, </strong> 
-										and I presently work as an RPA developer. I also have 3 years of experience as a Web Developer and 6 months as a freelancer.
-										<br>I want to learn things that I don't know yet. Even if it's challenging, as long as I learn and extend my abilities and knowledge, I am happy with it..
-										<br><br>
+										<p><strong>I'm joel </strong> I'm Joel, and I presently work as an RPA developer. <br>
+											I also have 3 years of experience as a Web Developer and 6 months as a freelancer.<br>
+											I want to learn things that I don't know yet. Even if it's challenging, as long as I learn and extend my abilities and knowledge, I'm satisfied.									
+										<br>At transcosmos Asia Philippines, I am employed as an RPA developer.<br><br>
 										I'm comfortable working in various environments and adapting to different technologies and methodologies as needed.</p>
 									</div>
 								</div>
@@ -425,7 +424,7 @@
 					                  <i class="icon-pen2"></i>
 					               </div>
 					               <div class="timeline-label">
-					               	<h2><a href="#">Freelancer </a> (Raianseier Team)<span>2023</span></h2>
+					               	<h2><a href="#">Freelancer </a> (Raianseier Team)<span>2022-2023</span></h2>
 					                  <p>Maintain front-end development and improve some features.
 									  <br>Make an application for DTR in school.</p>
 					               </div>
@@ -579,41 +578,46 @@
 
 	<!-- jQuery -->
 	<script>
-		var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
-
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
-
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
+		document.addEventListener('DOMContentLoaded', function() {
+		const movingImage = document.getElementById('movingImage');
+		const containerWidth = document.querySelector('.quby-container').offsetWidth;
+		const imageWidth = movingImage.offsetWidth;
+	
+		// Calculate the maximum left position
+		const maxLeftPosition = containerWidth - imageWidth;
+	
+		// Function to animate the image
+		function animateImage() {
+		// Reset the image position to the left of the container
+		movingImage.style.transform = `translateX(-${imageWidth}px)`;
+	
+		// Use requestAnimationFrame for smoother animation
+		function move() {
+			// Calculate the current left position of the image
+			let left = parseInt(movingImage.style.transform.split('(')[1]);
+			
+			// If the image reaches the maximum left position, reset to the start
+			if (left >= maxLeftPosition) {
+			movingImage.style.transform = `translateX(-${imageWidth}px)`;
+			left = -imageWidth;
+			}
+	
+			// Increment the left position to move the image right
+			left += 1;
+			movingImage.style.transform = `translateX(${left}px)`;
+	
+			// Request the next frame
+			requestAnimationFrame(move);
+		}
+	
+		// Start the animation
+		move();
+		}
+	
+		// Start the animation when the DOM content is loaded
+		animateImage();
+	});
+  
 	</script>
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
