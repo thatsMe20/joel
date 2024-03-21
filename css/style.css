@@ -30,6 +30,32 @@
   opacity: 0;
 }
 
+
+.typing-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#typingLine {
+  display: inline-block;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+#nameContainer {
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  color: #333;
+  display: inline-block;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden; /* Hide overflow text */
+  border-right: 2px solid transparent; /* Create a blinking cursor effect */
+}
+
+
 @media screen and (min-width: 48rem) {
   .error__description {
   padding: 0;

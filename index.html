@@ -53,32 +53,6 @@
 		transition: transform 10s linear;
 		}
 	</style>
-		<style>
-			.typing-container {
-			  text-align: center;
-			  margin-top: 50px;
-			}
-			
-			#typingLine {
-			  display: inline-block;
-			  width: 0;
-			  height: 2px;
-			  background-color: black;
-			  margin-bottom: 10px;
-			  overflow: hidden;
-			}
-			
-			#nameContainer {
-			  font-family: Arial, sans-serif;
-			  font-size: 36px;
-			  color: #333;
-			  display: inline-block;
-			  white-space: nowrap; /* Prevent line breaks */
-			  overflow: hidden; /* Hide overflow text */
-			  border-right: 2px solid transparent; /* Create a blinking cursor effect */
-			}
-			</style>
-
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
@@ -137,13 +111,12 @@
 												<p>I'm Joel</p>
 												<p>!</p>
 											</div>
-											<div class="typing-container">
-												<div id="typingLine"></div>
-												<div id="nameContainer"></div>
-											  </div>
-											
 										</h1>
-
+										<div class="typing-container">
+											<div id="typingLine"></div>
+											<div id="nameContainer"></div>
+											</div>
+											
 										</div>
 										<div class="desc note">
 											<p><a href="#" data-nav-section="contact" class="btn btn-primary btn-learn">Hire me </a></p>
@@ -621,7 +594,7 @@
 		  if (index < name.length) {
 			nameElement.textContent += name[index];
 			index++;
-			setTimeout(typeEffect, 200); // Adjust typing speed (milliseconds)
+			setTimeout(typeEffect, 300); // Adjust typing speed (milliseconds)
 		  } else {
 			setTimeout(eraseEffect, 1000); // Wait for 1 second before erasing
 		  }
