@@ -29,10 +29,84 @@
   animation: bounce 1.2s 1.8s linear forwards;
   opacity: 0;
 }
+img#movingImage {
+  max-width: 4%;
+}
+.moving-image {
+position: absolute;
+top: 0;
+left: 0;
+transition: transform 10s linear;
+}
 
+.btncon a{
+  font-size: 18px; 
+}
+.btncon{
+  max-width: 137px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 0 2PX rgb(180, 165, 103);
+  transition: 0.6s;
+  background-color: #FFEA9A;
+  }
+  .btncon:hover{
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+  box-shadow: 0 0 20px #000;
+  }
+  .loader1{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 5px solid rgb(59, 126, 126);  
+  border-bottom-color: #000;
+  animation: loader 2s linear infinite;
+  }
+  .ciclre{
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  background-color: #000;
+  animation: circle 2s linear infinite;
+  }
+  @keyframes circle {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+  }
+  @keyframes loader {
+  0%{transform: rotate(0deg)}  
+  100%{transform: rotate(360deg)}
+  }
 
-
-
+  .loader2{
+  height: 25px;
+  border-radius: 50%;
+  width: 25px;
+  border: 5px solid rgb(59, 126, 126);
+  border-bottom-color: #000;
+  animation: loader 2s linear infinite;
+  }
+  .ciclre{
+  height: 10px;
+  width: 10px;
+  border-radius: 20px;
+  background-color: #000;
+  animation: circle 2s linear infinite;
+  }
+  @keyframes circle {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(360deg);}
+  }
+  @keyframes loader {
+  0%{transform: rotate(0deg)}  
+  100%{transform: rotate(360deg)}
+  }
 .typing-container {
   text-align: center;
 }
