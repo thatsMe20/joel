@@ -528,7 +528,7 @@ figure {
   margin-left: 0 !important;
 }
 .slides .desc {
-  margin-left: 70px;
+  margin-left: 100px;
 }
 .desc.note{
   float: right;
@@ -1617,3 +1617,18 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+@media screen and (max-width: 320px) {
+  .error__code {
+    display: none;
+  }
+  li.flex-active-slide {
+    background: none !important;
+  }
+  .desc.note {
+    float: none;
+  }
+  .error__codep:last-of-type {
+    display: none;
+  }
+}
