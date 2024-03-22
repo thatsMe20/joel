@@ -1620,7 +1620,7 @@ body.offcanvas {
 
 @media screen and (max-width: 320px) {
   .error__code {
-    display: none;
+    flex-wrap: wrap;
   }
   li.flex-active-slide {
     background: none !important;
@@ -1628,7 +1628,8 @@ body.offcanvas {
   .desc.note {
     float: none;
   }
-  .error__codep:last-of-type {
-    display: none;
+  #colorlib-hero .flexslider .slider-text > .slider-text-inner h1 {
+    width: 84%;
+    margin: 0 auto;
   }
 }
