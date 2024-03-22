@@ -40,11 +40,11 @@ transition: transform 10s linear;
 }
 
 .btncon a{
+  padding: 0 5px;
   font-size: 18px; 
 }
 .btncon{
-  max-width: 137px;
-  height: 50px;
+  padding: 0 5px;
   display: flex;
   align-items: center;
   justify-content: center;
