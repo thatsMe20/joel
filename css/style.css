@@ -111,6 +111,7 @@ transition: transform 10s linear;
   width: 60%;
   word-wrap: break-word;
   text-align: center;
+  float: right;
 }
 
 #typingLine {
