@@ -108,6 +108,8 @@ transition: transform 10s linear;
   100%{transform: rotate(360deg)}
   }
 .typing-container {
+  width: 60%;
+  word-wrap: break-word;
   text-align: center;
 }
 
@@ -121,13 +123,11 @@ transition: transform 10s linear;
 }
 
 #nameContainer {
+  word-wrap: break-word;
+  width: 100;
   font-family: Arial, sans-serif;
   font-size: 17px;
   color: #333;
-  display: inline-block;
-  white-space: nowrap; /* Prevent line breaks */
-  overflow: hidden; /* Hide overflow text */
-  border-right: 2px solid transparent; /* Create a blinking cursor effect */
 }
 
 
