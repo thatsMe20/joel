@@ -249,7 +249,7 @@ padding-top: 3em;
       padding: 0 1em; } }
 
   #colorlib-hero {
-    min-height: 500px;
+    min-height: 726px;
     width: 100%;
     float: left;
     /* margin-bottom: 10em; */
@@ -277,7 +277,8 @@ padding-top: 3em;
       @media screen and (max-width: 768px) {
         #colorlib-hero .flexslider .flex-control-nav {
           right: 20px;
-          top: 100px; } }
+          top: 100px; 
+        } }
       #colorlib-hero .flexslider .flex-control-nav li {
         display: block;
         margin-bottom: 10px; }
