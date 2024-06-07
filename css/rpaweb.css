@@ -1,0 +1,73 @@
+
+.compare {
+    width: 100%;
+}
+.before img,
+.after img {
+	width: 100%;
+}
+.after img {
+	height: 87%;
+}
+.compare p {
+	padding-left: 4px;
+    font-size: 26px;
+	color: #308BD1;
+	display: block;
+	margin: 0;
+}
+@layer demo {
+	.compare {
+		display: grid;
+		
+		> * {
+		grid-area: 1 / 1;
+		}
+		
+		> section {
+		display: grid;
+		place-content: center;
+		}
+	}
+	
+	.before {
+		clip-path: inset(0 calc(100% - var(--pos, 50%)) 0 0);
+	}
+	
+.after {
+	clip-path: inset(0 0 0 var(--pos, 50%));
+}
+.after p {
+	clip-path: inset(0 0 0 var(--pos, 100%));
+}
+
+input[type="range"] {
+	z-index: 1;
+	appearance: none;
+	appearance: none;
+	background: transparent;
+	cursor: pointer;
+	&::-webkit-slider-thumb {
+	appearance: none;
+	width: 4px;
+	height: 77dvh;
+	background-color: CanvasText;
+	}
+	&::-moz-range-thumb {
+	appearance: none;
+	width: 4px;
+	height: 60dvh;
+	background-color: CanvasText;
+	}
+}
+}
+
+@layer demo.support {
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+img {
+	max-block-size: 70dvh;
+}
+}
