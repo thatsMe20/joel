@@ -17,7 +17,7 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="Recruitment for HR (Dynamic Website)"
+          title="Recruitment for HR (Dynamic Website) With Payroll Macro"
           des="The recruitment team's goal is to locate and employ competent applicants 
           to cover unfilled roles in the company. This entails being aware of the staffing 
           requirements of different teams or departments and making sure that openings 
@@ -30,7 +30,7 @@ const Projects = () => {
           src={projectTwo}
         />
         <ProjectsCard
-      
+          title="HRIS (DYNAMIC WEBSITE) With Payroll Macro"
           des="HRIS, which stands for Human Resource Information System, 
           is a software solution used by organizations to manage and streamline 
           various human resource functions and processes. It serves as a 
