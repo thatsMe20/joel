@@ -30,7 +30,7 @@ const Projects = () => {
           src={projectTwo}
         />
         <ProjectsCard
-          title="HRIS (Dynamic Website)"
+      
           des="HRIS, which stands for Human Resource Information System, 
           is a software solution used by organizations to manage and streamline 
           various human resource functions and processes. It serves as a 
