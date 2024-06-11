@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/thatsMe20/joelabunales/static/css/main.c59d7e15.css",
+    "main.js": "/thatsMe20/joelabunales/static/js/main.2f3ebd12.js",
+    "static/media/projectFive.png": "/thatsMe20/joelabunales/static/media/projectFive.9cbdb02a09654b672e49.png",
+    "static/media/img02.PNG": "/thatsMe20/joelabunales/static/media/img02.987654c074d6a90a5c01.PNG",
+    "static/media/projectTwo.png": "/thatsMe20/joelabunales/static/media/projectTwo.b9d0594237f0649924e8.png",
+    "static/media/img01.PNG": "/thatsMe20/joelabunales/static/media/img01.ddf47172daf675f60767.PNG",
+    "static/media/projectOne.png": "/thatsMe20/joelabunales/static/media/projectOne.e3e5d985271e66772112.png",
+    "static/media/bannerImg.png": "/thatsMe20/joelabunales/static/media/bannerImg.e743dc17bfe6deaa9e8d.png",
+    "static/media/projectSix.png": "/thatsMe20/joelabunales/static/media/projectSix.28b96d341fc5e17e1209.png",
+    "static/media/projectThree.png": "/thatsMe20/joelabunales/static/media/projectThree.354094e003420cbef6e3.png",
+    "static/media/projectFour.png": "/thatsMe20/joelabunales/static/media/projectFour.d37725b2a87be9a2d407.png",
+    "static/media/contactImg.png": "/thatsMe20/joelabunales/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/thatsMe20/joelabunales/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/testimonialTwo.png": "/thatsMe20/joelabunales/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "index.html": "/thatsMe20/joelabunales/index.html",
+    "main.c59d7e15.css.map": "/thatsMe20/joelabunales/static/css/main.c59d7e15.css.map",
+    "main.2f3ebd12.js.map": "/thatsMe20/joelabunales/static/js/main.2f3ebd12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c59d7e15.css",
+    "static/js/main.2f3ebd12.js"
+  ]
+}
