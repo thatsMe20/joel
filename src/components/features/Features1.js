@@ -24,7 +24,7 @@ const Features = () => {
           title="Back-end Developer"
           des="I'm responsible for building and maintaining the server-side logic, databases, 
           and infrastructure of web applications. I work closely with front-end developers 
-          and other team members to ensure the seamless functioning of web applications."
+          to ensure the seamless functioning of web applications."
           icon={<AiFillAppstore />}
         />
         <Card
@@ -47,8 +47,9 @@ const Features = () => {
         />
         <Card
           title="Hosting Websites"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des="Aim to provide a reliable, fast, secure, and manageable environment for web 
+          applications. By focusing on Performance, Security, Ease of Management 
+          and Support and Assistance."
           icon={<FaGlobe />}
         />
       </div>
