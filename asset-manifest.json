@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c59d7e15.css",
-    "main.js": "/portfolio/static/js/main.5e24aa8c.js",
-    "static/media/projectFive.png": "/portfolio/static/media/projectFive.9cbdb02a09654b672e49.png",
-    "static/media/img02.PNG": "/portfolio/static/media/img02.987654c074d6a90a5c01.PNG",
-    "static/media/projectTwo.png": "/portfolio/static/media/projectTwo.b9d0594237f0649924e8.png",
-    "static/media/img01.PNG": "/portfolio/static/media/img01.ddf47172daf675f60767.PNG",
-    "static/media/projectOne.png": "/portfolio/static/media/projectOne.e3e5d985271e66772112.png",
-    "static/media/bannerImg.png": "/portfolio/static/media/bannerImg.e743dc17bfe6deaa9e8d.png",
-    "static/media/projectSix.png": "/portfolio/static/media/projectSix.28b96d341fc5e17e1209.png",
-    "static/media/projectThree.png": "/portfolio/static/media/projectThree.354094e003420cbef6e3.png",
-    "static/media/projectFour.png": "/portfolio/static/media/projectFour.d37725b2a87be9a2d407.png",
-    "static/media/contactImg.png": "/portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
-    "static/media/testimonialOne.png": "/portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/testimonialTwo.png": "/portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "index.html": "/portfolio/index.html",
-    "main.c59d7e15.css.map": "/portfolio/static/css/main.c59d7e15.css.map",
-    "main.5e24aa8c.js.map": "/portfolio/static/js/main.5e24aa8c.js.map"
+    "main.css": "/joelabunales/static/css/main.c59d7e15.css",
+    "main.js": "/joelabunales/static/js/main.a2f48623.js",
+    "static/media/projectFive.png": "/joelabunales/static/media/projectFive.9cbdb02a09654b672e49.png",
+    "static/media/img02.PNG": "/joelabunales/static/media/img02.987654c074d6a90a5c01.PNG",
+    "static/media/projectTwo.png": "/joelabunales/static/media/projectTwo.b9d0594237f0649924e8.png",
+    "static/media/img01.PNG": "/joelabunales/static/media/img01.ddf47172daf675f60767.PNG",
+    "static/media/projectOne.png": "/joelabunales/static/media/projectOne.e3e5d985271e66772112.png",
+    "static/media/bannerImg.png": "/joelabunales/static/media/bannerImg.e743dc17bfe6deaa9e8d.png",
+    "static/media/projectSix.png": "/joelabunales/static/media/projectSix.28b96d341fc5e17e1209.png",
+    "static/media/projectThree.png": "/joelabunales/static/media/projectThree.354094e003420cbef6e3.png",
+    "static/media/projectFour.png": "/joelabunales/static/media/projectFour.d37725b2a87be9a2d407.png",
+    "static/media/contactImg.png": "/joelabunales/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/testimonialOne.png": "/joelabunales/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/testimonialTwo.png": "/joelabunales/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "index.html": "/joelabunales/index.html",
+    "main.c59d7e15.css.map": "/joelabunales/static/css/main.c59d7e15.css.map",
+    "main.a2f48623.js.map": "/joelabunales/static/js/main.a2f48623.js.map"
   },
   "entrypoints": [
     "static/css/main.c59d7e15.css",
-    "static/js/main.5e24aa8c.js"
+    "static/js/main.a2f48623.js"
   ]
 }
