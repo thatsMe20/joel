@@ -15,18 +15,13 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2014 - 2018</p>
           <h2 className="text-3xl md:text-4xl font-bold">Education Quality</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <EducationCard
             title="BS in Information Technology"
             subTitle="Access Computer College (2014 - 2018)"
             des="The program covers various areas of IT, including software development, networking, database management, web development, and information security."
           />
-          {/* <ResumeCard
-            title="Secondary School Education"
-            subTitle="Kingstar Secondary School (1998 - 2000)"
-            result="5.00/5"
-            des="Secondary education or post-primary education covers two phases on the International Standard Classification of Education scale."
-          /> */}
+
         </div>
       </div>
       {/* part Two */}

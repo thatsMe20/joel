@@ -16,15 +16,13 @@ const Features = () => {
         <Card
           title="Front-end Developer"
           des="i'm responsible for implementing the visual and interactive elements of a website 
-          or web application. They work closely with web designers and back-end developers to bring 
-          the design and functionality of a website to life."
+          or web application. I bring the design and functionality of a website to life."
           icon={<SiProgress />}
         />
         <Card
           title="Back-end Developer"
           des="I'm responsible for building and maintaining the server-side logic, databases, 
-          and infrastructure of web applications. I work closely with front-end developers 
-          to ensure the seamless functioning of web applications."
+          and infrastructure of web applications."
           icon={<AiFillAppstore />}
         />
         <Card

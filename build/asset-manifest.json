@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/joelabunales/static/css/main.c59d7e15.css",
-    "main.js": "/joelabunales/static/js/main.90aad97d.js",
+    "main.css": "/joelabunales/static/css/main.99682f48.css",
+    "main.js": "/joelabunales/static/js/main.a89eb44c.js",
     "static/media/projectFive.png": "/joelabunales/static/media/projectFive.9cbdb02a09654b672e49.png",
     "static/media/img02.PNG": "/joelabunales/static/media/img02.987654c074d6a90a5c01.PNG",
     "static/media/projectTwo.png": "/joelabunales/static/media/projectTwo.b9d0594237f0649924e8.png",
@@ -15,11 +15,11 @@
     "static/media/testimonialOne.png": "/joelabunales/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
     "static/media/testimonialTwo.png": "/joelabunales/static/media/testimonialTwo.c6df2773c486964035d9.png",
     "index.html": "/joelabunales/index.html",
-    "main.c59d7e15.css.map": "/joelabunales/static/css/main.c59d7e15.css.map",
-    "main.90aad97d.js.map": "/joelabunales/static/js/main.90aad97d.js.map"
+    "main.99682f48.css.map": "/joelabunales/static/css/main.99682f48.css.map",
+    "main.a89eb44c.js.map": "/joelabunales/static/js/main.a89eb44c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c59d7e15.css",
-    "static/js/main.90aad97d.js"
+    "static/css/main.99682f48.css",
+    "static/js/main.a89eb44c.js"
   ]
 }
