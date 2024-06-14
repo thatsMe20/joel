@@ -18,15 +18,12 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Recruitment for HR (Dynamic Website) With Payroll Macro"
-          des="The recruitment team's goal is to locate and employ competent applicants 
-          to cover unfilled roles in the company. This entails being aware of the staffing 
-          requirements of different teams or departments and making sure that openings 
-          are filled promptly to support business operations."
+          des="Confidential"
           src={projectOne}
         />
         <ProjectsCard
           title="Shoppee Poke (Send Bulk Email & SMS) Dynamic System"
-          des="The Shoppee poke was created to track every user's action and send mass emails and messages to the customers."
+          des="Confidential"
           src={projectTwo}
         />
         <ProjectsCard
@@ -44,8 +41,7 @@ const Projects = () => {
         />
         <ProjectsCard
           title="DX Infohub(Dynamic Website)"
-          des="BPO Infohub was created to update teams for upcoming events. 
-          And for new hires to read important documents also to see all team members."
+          des="Confidential"
           src={projectFive}
         />
         <ProjectsCard
